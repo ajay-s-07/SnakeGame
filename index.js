@@ -53,7 +53,14 @@ function gameEngine(){
     if(snakeArr[0].y === food.y && snakeArr[0].x === food.x){
         foodSound.play();
         score += 1;
-
+        
+        let hs = 100;
+        for(let i=5; i<=hs; i+=5){
+            if(score>=i){
+                speed+=2;
+            }
+        }
+        
         if(score>hiscoreval){
             hiscoreval = score;
             localStorage.setItem("hiscore", JSON.stringify(hiscoreval));
