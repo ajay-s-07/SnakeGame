@@ -8,7 +8,7 @@ This is a famous Snake Game we all used to play in Keypad Phones!
 
 ## Further Exploration
 - ### Score
-*When the snake eats the food, the score should increase by one. At the same time, we can see the High Score made. If our score gets more than high score, then our high also increases.*
+*When the snake eats the food, the score  increases by one. At the same time, we can see the Highest Score in the game. If our score gets more than high score, then our high score also increases.*
 
 - ### Difficulty Level
 *To make this game more exciting, I added the feature to increase the speed of Snake. Every time our Score gets increased by 5 points, the spped of Snake gets increased by 2. This makes the game intense and the player enjoys the game.*
