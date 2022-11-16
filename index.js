@@ -46,6 +46,7 @@ function gameEngine(){
         alert("Game Over. Press any key to Start again!");
         snakeArr = [{x:1 , y:1}];
         score = 0;
+        speed = 4;
         scoreBox.innerHTML = "Score : " + score;
     }
 
